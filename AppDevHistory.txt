@@ -16,3 +16,5 @@ TODO:
             - 
 04/11/2024  - Initial creation of the template
             - Added CommandLineRunner
+            - Added ANSI color in the console.
+            - 
