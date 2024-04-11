@@ -1,0 +1,18 @@
+============================================================================
+Lalulla Framework
+============================================================================
+Copyright (C) Lalulla OPC , Inc - All Rights Reserved
+Written by Joel M. Damaso <jammidee@gmail.com>, April 11, 2024
+============================================================================
+ 
+Software Architect: 		Jammi Dee
+Framework Design: 			Jammi Dee
+Developed / Programmed by : Joel Margate Damaso aka Jammi Dee
+Tested / QA by:				Jammi Dee
+
+TODO:
+
+            - Added site pages for initial login page.
+            - 
+04/11/2024  - Initial creation of the template
+            - Added CommandLineRunner

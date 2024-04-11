@@ -1,0 +1,113 @@
+04/11/2024
+
+Spring-Boot Development
+
+About 15 minutes
+
+A favorite text editor or IDE
+
+Java 17 or later
+
+Gradle 7.5+ or Maven 3.5+
+
+You can also import the code straight into your IDE:
+
+Spring Tool Suite (STS)
+
+IntelliJ IDEA
+
+VSCode
+
+GETTING STARTED
+---------------
+Goto:
+https://spring.io/guides/gs/spring-boot#scratch
+https://start.spring.io/
+
+EXTENDED VERSION
+----------------
+Select:
+- Maven
+- Java
+- Spring Boot 3.2.4
+- com.lalulla
+- lakubosbx
+- lakubosbx
+- Lalulla Project for Spring Boot Extended
+- com.myspring.lakubosbx
+- Jar
+- Java 17
+- Dependencies
+  : MySQL Driver
+  : Spring Web
+  : Spring Security
+  : Ollama
+
+
+Click Generate
+Download Filename spring-boot-boiler.zip
+
+Unzip to your folder
+--------------------
+
+Open in VSCode
+---------------
+- install Extension Pack for Java
+- Install the suggested Java Runtime - Open JDK
+  Install including the path to the envronment
+  
+- 
+
+Run the Application
+-------------------
+./mvnw spring-boot:run
+
+Access the Application
+----------------------
+http://localhost:8080
+
+
+EXTENSIONS
+
+1. Rest Client - Huachao Mao
+2. Tabstop Whitespace Converter - Johnny Wong
+3. Prettier - Code Fomratter - Prettier
+4. MySQL - MySQL Management Tool - Jun Han
+5. Material Icon Theme - Philipp Kief
+6. dotEnv - MikeStead
+7. Markdown Preview Github Styling - Matt Bierner
+8. Extension Pack for Java - Microsoft
+
+GIT - G1thUUb@!!M3
+---
+
+Create .gitignore on the app root folder
+# Ignore node_modules
+node_modules/
+
+git init           # Initialize a Git repository
+git add .            # Add all files in your project to the staging area
+git config --global user.email "jammi_dee@yahoo.com"
+git config --global user.name "Jammi Dee"
+git commit -m "Initial commit Lalulla Framework Spring-boot with web, security and Ollama"  # Commit your changes
+git branch -M main  # Rename the default branch to 'main'
+git remote add origin https://github.com/jammidee/laframesbx.git  # Replace with your GitHub repository URL
+git pull origin main  #if there is error in push
+git pull origin main --allow-unrelated-histories #if there are errors
+git push -u origin main  # Push your code to GitHub
+git rm -r --cached logs
+
+git status
+git log
+git log --all --graph
+
+* Creating a new branch
+git branch feature01
+git checkout feature01
+git add .
+git commit -m "Feature 01 initial commit"
+git push -u origin feature01
+
+* Create a pull request
+1. Login to github then click the 'Pull Request' menu.
+2. Click the Create A Pull Request. Then Confirm Merge.
