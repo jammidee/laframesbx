@@ -20,6 +20,7 @@ TODO:
 
 04/12/2024  - Set the embedded tomcat config in the application.properties
             - Added more tomcat settings
+            - Successfully configure the default user / password for the spring.security
             - 
 
 04/11/2024  - Initial creation of the template
