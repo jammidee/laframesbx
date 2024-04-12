@@ -39,7 +39,7 @@ public class LakubosbxApplication {
     private static final String ANSI_COLOR_RESET 	= "\u001B[0m";
     //private static final String ANSI_COLOR_RED 		= "\u001B[31m";
     private static final String ANSI_COLOR_GREEN 	= "\u001B[32m";
-    //private static final String ANSI_COLOR_YELLOW 	= "\u001B[33m";
+    private static final String ANSI_COLOR_YELLOW 	= "\u001B[33m";
 
 	public static void main(String[] args) {
 		SpringApplication.run(LakubosbxApplication.class, args);
@@ -55,7 +55,8 @@ public class LakubosbxApplication {
 			String[] beanNames = ctx.getBeanDefinitionNames();
 			Arrays.sort(beanNames);
 			for (String beanName : beanNames) {
-				System.out.println(beanName);
+				//System.out.println(beanName);
+				System.out.printf(" Bean: %s%s%s\n", ANSI_COLOR_YELLOW, beanName, ANSI_COLOR_RESET );
 			}
 
 		};

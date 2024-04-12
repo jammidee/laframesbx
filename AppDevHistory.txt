@@ -17,6 +17,11 @@ TODO:
 
             - Added site pages for initial login page.
             - 
+
+04/12/2024  - Set the embedded tomcat config in the application.properties
+            - Added more tomcat settings
+            - 
+
 04/11/2024  - Initial creation of the template
             - Added CommandLineRunner
             - Added ANSI color in the console.
