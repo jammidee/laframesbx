@@ -26,7 +26,7 @@ package com.lalulla.lakubosbx.user;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/user")
+@RequestMapping("/api/v1/user")
 public class UserController {
 
     @RequestMapping(method = RequestMethod.GET)
