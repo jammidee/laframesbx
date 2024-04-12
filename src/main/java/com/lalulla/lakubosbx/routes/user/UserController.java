@@ -22,7 +22,7 @@
  *
 */
 
-package com.lalulla.lakubosbx.user;
+package com.lalulla.lakubosbx.routes.user;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
