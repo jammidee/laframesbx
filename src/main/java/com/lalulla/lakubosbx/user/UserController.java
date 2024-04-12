@@ -16,23 +16,37 @@
  * 
  * Framework Designed by: Jammi Dee (jammi_dee@yahoo.com)
  *
- * File Create Date: 04/11/2024 07:28pm
+ * File Create Date: 04/12/2024 12:28pm
  * Created by: Jammi Dee
  * Modified by: Jammi Dee
  *
 */
 
-package com.lalulla.lakubosbx;
-
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+package com.lalulla.lakubosbx.user;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
-public class MainWebController {
+@RequestMapping("/user")
+public class UserController {
 
-	@GetMapping("/")
-	public String index() {
-		return "Greetings from Spring Boot!";
-	}
-	
+    @RequestMapping(method = RequestMethod.GET)
+    public String getUser() {
+        return "User information";
+    }
+
+    @RequestMapping(value = "/add", method = RequestMethod.POST)
+    public String addUser() {
+        return "User added";
+    }
+
+    @RequestMapping(value = "/edit", method = RequestMethod.PUT)
+    public String editUser() {
+        return "User edited";
+    }
+
+    @RequestMapping(value = "/delete", method = RequestMethod.DELETE)
+    public String deleteUser() {
+        return "User deleted";
+    }
+
 }
