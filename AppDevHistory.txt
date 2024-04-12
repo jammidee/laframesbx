@@ -12,6 +12,9 @@ Tested / QA by:				Jammi Dee
 
 TODO:
 
+            - Added expiration/demo mode
+            - 
+
             - Added site pages for initial login page.
             - 
 04/11/2024  - Initial creation of the template
